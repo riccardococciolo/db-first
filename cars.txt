@@ -1,0 +1,26 @@
+cars
+
+id - 
+make
+model
+year 
+mileage 
+body_type
+engine_type
+engine_displacement
+transmission_type
+drivetrain
+fuel_efficiency
+mechanical_condition
+accident_history
+tire_and_brake_condition
+features
+included_accessories
+sale_price
+financing_options
+service_and_maintenance_history
+ownership_history
+photos
+videos
+reliability_ratings
+location
