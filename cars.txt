@@ -1,26 +1,25 @@
 cars
 
-id - 
-make
-model
-year 
-mileage 
-body_type
-engine_type
-engine_displacement
-transmission_type
-drivetrain
-fuel_efficiency
-mechanical_condition
-accident_history
-tire_and_brake_condition
-features
-included_accessories
-sale_price
-financing_options
-service_and_maintenance_history
-ownership_history
-photos
-videos
-reliability_ratings
-location
+id - INT -
+make - VARCHAR(255) -
+model - VARCHAR(255) -
+year - YEAR - 
+mileage - DOUBLE(9,2) -
+body_type - VARCHAR(255) -
+engine_type - VARCHAR(255) -
+engine_displacement - SMALLINT -
+transmission_type - VARCHAR(255) -
+drivetrain - VARCHAR(255) -
+fuel_efficiency - FLOAT(3,1) -
+mechanical_condition - VARCHAR(255) -
+accident_history - VARCHAR(255) -
+tire_and_brake_condition - VARCHAR(255) -
+features - TEXT -
+included_accessories - VARCHAR(255) -
+sale_price - DECIMAL(10,2) -
+financing_options - VARCHAR(255) -
+service_and_maintenance_history - VARCHAR(255) -
+ownership_history - VARCHAR(255) -
+photos - VARCHAR(255) -
+videos - VARCHAR(255) -
+location - VARCHAR(255) -
