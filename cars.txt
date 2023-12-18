@@ -1,25 +1,25 @@
 cars
 
-id - INT -
-make - VARCHAR(255) -
-model - VARCHAR(255) -
-year - YEAR - 
-mileage - DOUBLE(9,2) -
-body_type - VARCHAR(255) -
-engine_type - VARCHAR(255) -
-engine_displacement - SMALLINT -
-transmission_type - VARCHAR(255) -
-drivetrain - VARCHAR(255) -
-fuel_efficiency - FLOAT(3,1) -
-mechanical_condition - VARCHAR(255) -
-accident_history - VARCHAR(255) -
-tire_and_brake_condition - VARCHAR(255) -
-features - TEXT -
-included_accessories - VARCHAR(255) -
-sale_price - DECIMAL(10,2) -
-financing_options - VARCHAR(255) -
-service_and_maintenance_history - VARCHAR(255) -
-ownership_history - VARCHAR(255) -
-photos - VARCHAR(255) -
-videos - VARCHAR(255) -
-location - VARCHAR(255) -
+id - INT - UNSIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+make - VARCHAR(255) - NOTNULL
+model - VARCHAR(255) - NOTNULL
+year - YEAR - NOTNULL
+mileage - DOUBLE(9,2) - NULL
+body_type - VARCHAR(255) - NULL
+engine_type - VARCHAR(255) - NOTNULL
+engine_displacement - SMALLINT - NOTNULL
+transmission_type - VARCHAR(255) - NOTNULL
+drivetrain - VARCHAR(255) - NOTNULL
+fuel_efficiency - FLOAT(3,1) - NOTNULL
+mechanical_condition - VARCHAR(255) - NULL
+accident_history - VARCHAR(255) - NULL
+tire_and_brake_condition - VARCHAR(255) - NULL
+features - TEXT - NULL
+included_accessories - VARCHAR(255) - NOTNULL - DEFAULT "standard"
+sale_price - DECIMAL(10,2) - NOTNULL
+financing_options - VARCHAR(255) - NOTNULL
+service_and_maintenance_history - VARCHAR(255) - NULL
+ownership_history - VARCHAR(255) - NULL
+photos - VARCHAR(255) - NULL
+videos - VARCHAR(255) - NULL
+location - VARCHAR(255) - NOTNULL
